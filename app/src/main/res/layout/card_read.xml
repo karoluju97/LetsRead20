@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:elevation="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="92dp"
+            android:layout_height="199dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="136dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="139dp"
+            android:text="@string/book_name" />
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="136dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/bookTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="139dp"
+            android:text="@string/author" />
+
+        <TextView
+            android:id="@+id/yearReleased"
+            android:layout_width="136dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/bookTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-37dp"
+            android:layout_marginEnd="-10dp"
+            android:text="@string/year_released" />
+
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="136dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/bookTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="-13dp"
+            android:text="@string/Genre" />
+
+        <TextView
+            android:id="@+id/summary01"
+            android:layout_width="284dp"
+            android:layout_height="97dp"
+            android:layout_below="@+id/bookTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="-9dp"
+            android:text="@string/summary" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

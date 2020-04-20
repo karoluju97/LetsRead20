@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lets Read</string>
+    <string name="action_post">Posts</string>
+    <string name="action_read">Create Post</string>
+    <string name="book_name">Book Title</string>
+    <string name="author">Author</string>
+    <string name="Genre">Genre</string>
+    <string name="year_released">Year Released</string>
+    <string name="button_addImage">Upload Image</string>
+    <string name="image_picker">Image Uploaded</string>
+    <string name="summary">Summary of the book</string>
+    <string name="post_button">Post</string>
+</resources>
