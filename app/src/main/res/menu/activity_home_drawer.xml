@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/ic_menu_read"
+            android:title="@string/menu_read" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_menu_post"
+            android:title="@string/menu_post" />
+        <item
+            android:id="@+id/nav_report_all"
+            android:icon="@drawable/ic_menu_all_post"
+            android:title="@string/menu_post_all" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_aboutme"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+    <item android:title="Access Control">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@android:drawable/ic_menu_revert"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>

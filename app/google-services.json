@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312776157526",
+    "firebase_url": "https://letsread-project.firebaseio.com",
+    "project_id": "letsread-project",
+    "storage_bucket": "letsread-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312776157526:android:2252939f8c200a0b608ef7",
+        "android_client_info": {
+          "package_name": "ie.wit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312776157526-rmfl8jm9fhceq37uibac2kiu9h9vg8ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt1_W0Fx5N9u3STtLKUozIzGSZXK3DcfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312776157526-3d32pipji4jgcir0fpm5q8rdiv1o13b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

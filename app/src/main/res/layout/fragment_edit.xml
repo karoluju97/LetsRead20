@@ -2,12 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    tools:context=".fragments.EditFragment">
 
     <EditText
-        android:id="@+id/book_name"
+        android:id="@+id/editBook_name"
         android:layout_width="379dp"
         android:layout_height="51dp"
         android:layout_marginEnd="16dp"
@@ -22,21 +23,21 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <EditText
-        android:id="@+id/author"
-        android:layout_width="231dp"
-        android:layout_height="54dp"
+        android:id="@+id/editAuthor"
+        android:layout_width="375dp"
+        android:layout_height="57dp"
         android:ems="10"
         android:hint="@string/author"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454" />
+        app:layout_constraintVertical_bias="0.186" />
 
     <EditText
-        android:id="@+id/Genre"
+        android:id="@+id/editGenre"
         android:layout_width="232dp"
         android:layout_height="55dp"
         android:ems="10"
@@ -47,10 +48,10 @@
         app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintVertical_bias="0.307" />
 
     <EditText
-        android:id="@+id/summary"
+        android:id="@+id/editSummary"
         android:layout_width="386dp"
         android:layout_height="185dp"
         android:ems="10"
@@ -59,23 +60,13 @@
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804" />
-
-    <Button
-        android:id="@+id/post_button"
-        android:layout_width="110dp"
-        android:layout_height="47dp"
-        android:text="@string/post_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/summary" />
+        app:layout_constraintVertical_bias="0.556" />
 
     <EditText
-        android:id="@+id/year_released"
+        android:id="@+id/editYear_released"
         android:layout_width="138dp"
         android:layout_height="53dp"
         android:ems="10"
@@ -83,30 +74,19 @@
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintHorizontal_bias="0.93"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintVertical_bias="0.308" />
 
-    <ImageView
-        android:id="@+id/image_picker"
-        android:layout_width="227dp"
-        android:layout_height="205dp"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="168dp"
-        android:contentDescription="@string/image_picker"
+    <Button
+        android:id="@+id/editUpdateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="@string/action_update"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
-    <ImageButton
-        android:id="@+id/button_addImage"
-        android:layout_width="68dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="252dp"
-        android:layout_marginEnd="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/stat_sys_upload" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
